@@ -66,7 +66,7 @@ class game:
         return '.'
 
     def max(self, alpha, beta):
-        maxv = -2
+        maxv = -6
         px = None
         py = None
 
@@ -101,7 +101,7 @@ class game:
 
     def min(self, alpha, beta):
 
-        minv = 2
+        minv = 6
 
         qx = None
         qy = None
@@ -184,4 +184,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
